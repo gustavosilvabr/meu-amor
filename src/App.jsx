@@ -7,7 +7,7 @@ const RomanticApp = () => {
     const [currentMessage, setCurrentMessage] = useState(0);
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const [isMusicPlaying, setIsMusicPlaying] = useState(false);
-    const [audio] = useState(new Audio("/public/music/music.mp3")); // Cria o objeto de áudio
+    const [audio] = useState(new Audio("/music/music.mp3")); // Cria o objeto de áudio
 
     const messages = [
         "Você é a luz que ilumina meus dias. ❤️",
